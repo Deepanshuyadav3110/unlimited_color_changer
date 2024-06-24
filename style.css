@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+.parent{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%);
+}
+h2{
+    text-align: center;
+}
+button{
+    position:absolute;
+    left:30%;
+}
+#stop{
+    margin-left:6rem;
+}
